@@ -12,12 +12,13 @@
     <title>Bookmark Landing Page</title>
   </head>
   <body>
-<div class="">
+
   <!--Navigation Area-->
-    <div class="mt-6">
-      <nav class="flex justify-around">
+    <header>
+    <div class="mt-7">
+      <nav class="flex justify-around gap-x-80">
         <img class="h-full" src="src/Assets/images/logo-bookmark.svg"></img>
-        <ul class="flex gap-14">
+        <ul class="flex gap-9">
           <li>
             FEATURES
           </li>
@@ -27,24 +28,25 @@
         </ul>
       </nav>
     </div>
+  </header>
 
     <!--First section-->
-    <section class="my-9 mx-11">
-      <div class="flex gap-5">
-        <div class="p-4 items-center border-2">
-          <h1 class="text-3xl font-semibold">A Simple Bookmark <h1 class="text-3xl font-semibold">Manager</h1></h1>
-          <p class="text-gray-500">A clean and simple interface to organize your favourite websites. Open a new browser and see your sites load instantly. Try it for free</p>
-          <div class="">
-          <button class="bg-blue-500 py-1 px-1 rounded" href="">Get in chrome</button>
-          <button class="bg-gray-300 py-1 px-1 rounded" href="">Get in Firefox</button>
+    <div class="mt-16 mx-9 p-6">
+      <div class="flex justify-evenly">
+        <div class="mt-12">
+          <h1 class="text-3xl space-x-1 font-semibold">A Simple Bookmark <h1 class="text-3xl font-semibold mb-5">Manager</h1></h1>
+          <p class="text-gray-500">A clean and simple interface to organize your favourite<br>websites.Open a new browser and see your sites load<br> instantly. Try it for free.</p>
+          <div class="mt-6 flex gap-4">
+          <button class="bg-blue-600 py-2 px-2 rounded text-white shadow-lg" href="">Get in chrome</button>
+          <button class="bg-gray-200 shadow-lg py-2 px-2 rounded" href="">Get in Firefox</button>
         </div>
         </div>
-        <div class="border-2">
+        <div class="w-auto h-auto">
           <img src="/src/Assets/images/illustration-hero.svg" alt="">
         </div>
       </div>
-</div>
-    </section>
+
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
