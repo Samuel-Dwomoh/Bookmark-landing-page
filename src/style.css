@@ -4,3 +4,6 @@
 *{
     font-family: "Satisfy", cursive;
 }
+html{
+    scroll-behavior: smooth;
+}
